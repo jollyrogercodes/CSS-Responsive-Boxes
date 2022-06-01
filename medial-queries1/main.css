@@ -1,3 +1,51 @@
 body {
   background: blanchedalmond;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: dashed red;
+}
+
+.a {
+  border: solid blue;
+  min-height: 12vh;
+  min-width: 100%;
+  flex-grow: 2;
+  margin: 1em;
+}
+
+.b {
+  border: solid green;
+  min-height: 72vh;
+  min-width: 100%;
+  flex-grow: 5;
+  margin: 1em;
+}
+
+.c {
+  border: solid purple;
+  min-height: 12vh;
+  min-width: 100%;
+  flex-grow: 2;
+  margin: 1em;
+}
+
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .a {
+    width: 100%;
+  }
+  .b {
+    min-width: 70%;
+  }
+  .c {
+    min-width: 20%;
+    flex-grow: 3;
+  }
+}

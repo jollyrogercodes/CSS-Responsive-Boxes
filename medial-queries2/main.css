@@ -1,3 +1,66 @@
 body {
   background: papayawhip;
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1vh;
+}
+
+.a, .f {
+  border: solid red;
+  min-height: 12vh;
+  min-width: 100%;
+  margin: 1vh;
+}
+
+.b {
+  border: solid blue;
+  min-height: 48vh;
+  min-width: 100%;
+  margin: 1vh;
+}
+
+.c, .d, .e {
+  border: solid darkgreen;
+  min-height: 12vh;
+  min-width: 12vh;
+  flex-grow: 4;
+  margin: 1vh;
+}
+
+@media (min-width: 600px) {
+  .content {
+
+  }
+  .a {
+    
+  }
+  .f {
+
+  }
+  .b {
+
+  }
+  .c, .d, .e {
+    
+  }
+}
+
+/* .d {
+  border: solid purple;
+  margin: 1vh;
+}
+
+.e {
+  border: solid orange;
+  margin: 1vh;
+} */
+
+/* .f {
+  border: solid lime;
+  margin: 1vh;
+} */

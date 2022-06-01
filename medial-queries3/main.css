@@ -1,3 +1,38 @@
 body {
   background: peachpuff;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.a {
+  border: solid red;
+  min-width: 100%;
+  min-height: 12vh;
+  margin: 1vh;
+}
+
+.b, .c, .d {
+  border: solid blue;
+  min-width: 12vh;
+  min-height: 12vh;
+  margin: 1vh;
+}
+
+.e, .f, .g {
+  border: solid blue;
+  min-width: 12vh;
+  min-height: 12vh;
+  margin: 1vh;
+}
+
+.h {
+  border: solid green;
+  min-width: 100%;
+  min-height: 48vh;
+  margin: 1vh;
+}
