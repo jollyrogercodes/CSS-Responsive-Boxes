@@ -16,14 +16,7 @@ body {
   margin: 1vh;
 }
 
-.b, .c, .d {
-  border: solid blue;
-  min-width: 12vh;
-  min-height: 12vh;
-  margin: 1vh;
-}
-
-.e, .f, .g {
+.b, .c, .d, .e, .f, .g {
   border: solid blue;
   min-width: 12vh;
   min-height: 12vh;

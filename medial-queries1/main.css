@@ -6,11 +6,11 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  border: dashed red;
+  justify-content: space-between;
 }
 
 .a {
-  border: solid blue;
+  border: solid red;
   min-height: 12vh;
   min-width: 100%;
   flex-grow: 2;
@@ -26,7 +26,7 @@ body {
 }
 
 .c {
-  border: solid purple;
+  border: solid blue;
   min-height: 12vh;
   min-width: 100%;
   flex-grow: 2;
@@ -39,7 +39,7 @@ body {
     flex-wrap: wrap;
   }
   .a {
-    width: 100%;
+    min-width: 100%;
   }
   .b {
     min-width: 70%;

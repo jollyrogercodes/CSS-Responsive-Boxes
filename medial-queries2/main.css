@@ -10,7 +10,7 @@ body {
   padding: 1vh;
 }
 
-.a, .f {
+.a {
   border: solid red;
   min-height: 12vh;
   min-width: 100%;
@@ -32,35 +32,31 @@ body {
   margin: 1vh;
 }
 
+.f {
+  border: solid hotpink;
+  min-height: 12vh;
+  min-width: 100%;
+  margin: 1vh;
+}
+
 @media (min-width: 600px) {
   .content {
-
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   .a {
-    
-  }
-  .f {
-
+    width: 100%;
+    max-height: 12vh;
   }
   .b {
-
+    flex-grow: 3;
+    max-width: 70%;
   }
   .c, .d, .e {
     
   }
+  .f {
+    flex-grow: 3;
+    min-height: 80vh;
+  }
 }
-
-/* .d {
-  border: solid purple;
-  margin: 1vh;
-}
-
-.e {
-  border: solid orange;
-  margin: 1vh;
-} */
-
-/* .f {
-  border: solid lime;
-  margin: 1vh;
-} */
